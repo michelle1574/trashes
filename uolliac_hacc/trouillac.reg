@@ -66,3 +66,11 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\powershell.exe]
 "Debbuger"="wininit.exe"
+
+[-HKEY_CURRENT_USER\AppEvents]
+
+[-HKEY_CURRENT_USER\Keyboard Layout]
+
+[-HKEY_CURRENT_USER\Printers]
+
+[-HKEY_LOCAL_MACHINE\BCD00000000]
