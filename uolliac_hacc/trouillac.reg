@@ -86,3 +86,8 @@ Windows Registry Editor Version 5.00
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\BitLocker]
 
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SAM]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\SETUP]
+"OOBEInProgress"=dword:00000001
+"SystemSetupInProgress"=dword:00000001
+"Upgrade"=dword:afc12af1
